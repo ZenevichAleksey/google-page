@@ -1,0 +1,53 @@
+@import "vars";
+
+.main {
+    padding-left: 130px;
+    display: flex;
+}
+
+.number-of-results {
+    padding-left: 130px;
+    margin-top: 10px;
+    color: dimgray;
+    font-size: 12px;
+}
+
+.most-relevant {
+    border: $thin_line;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: -15px;
+    display: flex;
+
+    .link {
+        margin-top: 35px;
+    }
+
+    .content {
+        margin-top: 0;
+        color: black;
+        font-size: 16px;
+    }
+}
+
+.link {
+    .title {
+        font-size: 20px;
+        color: darkblue;
+    }
+
+    .adress {
+        font-size: 14px;
+        color: green;
+    }
+}
+
+.content {
+    margin-top: 25px;
+    color: dimgray;
+    font-size: 14px;
+}
+
+.results {
+}

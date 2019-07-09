@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 22px; }
+
+.header {
+  border-bottom: 1px solid lightgray;
+  /*position: sticky;
+    top: 0;
+    background: white;*/ }
+
+.search-bar {
+  display: flex;
+  height: 50px; }
+
+.google-logo-img {
+  margin: 8px;
+  height: 34px;
+  width: auto; }
+
+input[type="text"] {
+  font-size: 16px;
+  border: none;
+  margin: 8px;
+  padding: 0;
+  height: 60%; }
+
+.search {
+  height: 100%; }
+
+.search-form {
+  margin: 4px;
+  height: 80%;
+  border: 1px solid lightgray;
+  border-radius: 25px; }
+
+button {
+  padding: 0;
+  background: none;
+  border: none;
+  font-size: 16px;
+  margin-right: 8px;
+  color: cornflowerblue; }
+
+.nav-bar {
+  display: flex;
+  height: 34px;
+  padding-left: 130px; }
+  .nav-bar a {
+    margin: 5px 10px 0 0;
+    padding: 5px;
+    font-size: 13px;
+    color: dimgray; }
+  .nav-bar a.active {
+    color: cornflowerblue;
+    border-bottom: 3px solid cornflowerblue; }
+
+i {
+  margin: 0 2px 0 2px; }

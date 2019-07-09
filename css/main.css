@@ -1,0 +1,36 @@
+.main {
+  padding-left: 130px;
+  display: flex; }
+
+.number-of-results {
+  padding-left: 130px;
+  margin-top: 10px;
+  color: dimgray;
+  font-size: 12px; }
+
+.most-relevant {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  margin-left: -15px;
+  display: flex; }
+  .most-relevant .link {
+    margin-top: 35px; }
+  .most-relevant .content {
+    margin-top: 0;
+    color: black;
+    font-size: 16px; }
+
+.link .title {
+  font-size: 20px;
+  color: darkblue; }
+
+.link .adress {
+  font-size: 14px;
+  color: green; }
+
+.content {
+  margin-top: 25px;
+  color: dimgray;
+  font-size: 14px; }

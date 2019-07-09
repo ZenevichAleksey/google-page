@@ -1,0 +1,37 @@
+@import "vars";
+
+.card {
+    border: $thin_line;
+    border-radius: 10px;
+    width: 450px;
+    margin: 15px 60px 0 40px;
+}
+
+.card-header {
+    padding-left: 15px;
+    display: flex;
+    border-bottom: $thin_line;
+}
+
+.card-title {
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.card-subtitle {
+    font-size: 13px;
+    margin-top: 5px;
+    color: dimgray;
+    margin-right: 60px;
+}
+
+.card-body {
+    padding: 15px;
+    font-size: 13px;
+}
+
+.card-footer {
+    padding: 15px;
+    font-size: 13px;
+    display: flex;
+}
